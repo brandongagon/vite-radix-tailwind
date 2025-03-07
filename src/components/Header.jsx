@@ -4,12 +4,10 @@ import AccordionDemo from "./Accordion";
 const Header = () => {
   return (
     <div>
-      <Flex direction="column" gap="2">
+      {/* <Flex direction="column" gap="2">
 			  <Text>Hello from Radix Themes :)</Text>
 			  <Button>Let's go</Button>      
-		  </Flex>
-
-      <AccordionDemo />
+		  </Flex>       */}
     </div>    
   )
 }
