@@ -6,8 +6,7 @@ interface MainLayoutProps {
 
 const MainLayout = ({children}: MainLayoutProps) => {
     return (
-        <div>
-            <p>Main Layout File</p>
+        <div className="bg-gray-900 flex justify-center items-center min-h-screen">
             <main>{children}</main>
         </div>
     );
