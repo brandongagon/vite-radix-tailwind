@@ -5,5 +5,15 @@ export const debug = {
     if (DEBUG_ENABLED) {
       console.log(...args);
     }
+  },
+  warn: (...args: unknown[]) => {
+    if (DEBUG_ENABLED) {
+      console.warn(...args);
+    }
+  },
+  error: (...args: unknown[]) => {
+    if (DEBUG_ENABLED) {
+      console.error(...args);
+    }
   }
 };
